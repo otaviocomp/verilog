@@ -10,14 +10,14 @@ module mux_tb();
 		sel = 0;
 		#5 in0 = 1;
 		#5 in0 = 0;
-		#5 in1 = 1;
+		   in1 = 1;
 		#5 in0 = 1;
 		#5 sel = 1;
-		#5 in0 = 0;
-		#5 in1 = 0;
+		   in0 = 0;
+		   in1 = 0;
 		#5 in0 = 1;
 		#5 in0 = 0;
-		#5 in1 = 1;
+		   in1 = 1;
 		#5 in0 = 1;
 		#5 $finish;
 	end
